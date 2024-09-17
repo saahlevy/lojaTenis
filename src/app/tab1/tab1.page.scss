@@ -1,0 +1,37 @@
+* {
+    font-family: Istok Web;
+}
+
+.titulo{
+    font-family: Holtwood One SC;
+    color: #254478;
+    margin: 0;
+    font-size: 32px;
+}
+
+.tituloBranco{
+    font-family: Holtwood One SC;
+    color: white;
+    margin: 0;
+    font-size: 32px;
+}
+
+ion-tab-bar{
+    display: none;
+}
+
+ion-content{
+    --background: radial-gradient(
+        circle at 5% 50%,
+        #a8ce89 0%,
+        #23ac8b 70%,
+        #32e180 100%
+      );
+    --color: white;
+}
+
+ion-button{
+    --color: white;
+    --background: #f2c94c;
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+}
